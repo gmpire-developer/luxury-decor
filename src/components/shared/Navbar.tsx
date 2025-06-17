@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/luxury-decor-high-resolution-logo-transparent.png" alt="Luxury Decor Logo" width={40} height={40} />
+          <Image src="/logo.png" alt="Luxury Decor Logo" width={40} height={40} />
           <span className="text-2xl font-bold text-green-600">Luxury Decor</span>
         </Link>
 

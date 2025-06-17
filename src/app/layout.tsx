@@ -3,7 +3,7 @@ import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
 
 export const metadata = {
-  title: "EasyDecor",
+  title: "Luxury Decor",
   description: "Premium Furniture Collection",
   icons: {
     icon: "/favicon.ico", // or favicon.png if you're using PNG
