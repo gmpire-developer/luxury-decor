@@ -5,8 +5,6 @@ import { Testimonial } from '@/types/testimonial';
 import { FAQ } from '@/types/faq';
 import { Contact } from '@/types/contact';
 import { TrendingProduct } from '@/types/trendingProduct';
-import { Review } from '@/types/review';
-import { RatingStats } from '@/types/rating';
 
 export async function getAllProducts(): Promise<Product[]> {
   return await client.fetch(queries.allProductsQuery);

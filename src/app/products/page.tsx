@@ -2,6 +2,7 @@
 
 import { ProductCard } from "@/components/shared/ProductCard";
 import { client } from "@/lib/sanity/client";
+import { SanityImage } from "@/types/product";
 import { useEffect, useState } from "react";
 
 interface Product {
@@ -9,7 +10,7 @@ interface Product {
   title: string;
   slug: { current: string };
   price: number;
-  images: any[];
+  images: SanityImage[];
 }
 
 export default function Products() {

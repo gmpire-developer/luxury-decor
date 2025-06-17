@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Review } from "@/types/review";
 
 interface Props {
-  onReviewAdded: (newReview: any) => void;
+  onReviewAdded: (newReview: Review) => void;
 }
 
 export default function AddReviewForm({ onReviewAdded }: Props) {
