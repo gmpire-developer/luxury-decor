@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { urlFor } from "@/lib/sanity/image";
 import Link from "next/link";
-import { SanityImage } from "@/types/product";
+import { SanityImageSource } from "@sanity/image-url/lib/types/types";
 
 interface ProductCardProps {
   product: {
@@ -11,7 +11,7 @@ interface ProductCardProps {
     title: string;
     price: number;
     slug: { current: string };
-    images: SanityImage[];
+    images: SanityImageSource[];
   };
 }
 
