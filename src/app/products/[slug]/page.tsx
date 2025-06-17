@@ -7,8 +7,6 @@ import { Product } from "@/types/product";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import Link from "next/link";
 
 export default function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();

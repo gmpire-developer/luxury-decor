@@ -1,4 +1,4 @@
-import { getAllFAQs, getAllTestimonials } from "@/lib/sanity/fetchers";
+import { getAllFAQs } from "@/lib/sanity/fetchers";
 import FAQPage from "@/components/shared/FAQPage";
 
 export default async function FAQ() {

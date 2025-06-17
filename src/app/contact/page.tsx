@@ -54,7 +54,7 @@ export default function Contact() {
         setError("Something went wrong. Please try again later.");
       }
     } catch (err) {
-      setError("Something went wrong.");
+      setError("Something went wrong." + err);
     } finally {
       setLoading(false);
     }
